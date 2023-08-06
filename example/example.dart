@@ -13,13 +13,13 @@ void main() async {
   // Example 2: Use ReentrantDLock to control concurrency across multiple levels
   final reentrantDLock = ReentrantDLock();
   await reentrantDLock.withLock(() async {
-    print('Outer-level Job 3 is executing...');
+    print('Outer-level Job 2 is executing...');
     await reentrantDLock.withLock(() async {
-      print('Inner-level Job 3 is executing...');
+      print('Inner-level Job 2 is executing...');
       await Future.delayed(Duration(seconds: 1));
-      print('Inner-level Job 3 has completed.');
+      print('Inner-level Job 2 has completed.');
     });
-    print('Outer-level Job 3 has completed.');
+    print('Outer-level Job 2 has completed.');
   });
 
   // Example 3: Use DLock to control synchronization of API calls
