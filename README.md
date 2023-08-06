@@ -72,7 +72,7 @@ void main() async {
 
 ## Examples
 
-For more examples, check out the example directory.
+For more examples, check out the [example](example) directory.
 
 ## Testing
 
@@ -86,6 +86,8 @@ dart test
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-Note: This is a basic overview of `dmutex``. For more detailed information and advanced usage, refer to the package documentation on [pub.dev](https://pub.dev/).
+## Note
+
+ This is a basic overview of `dmutex`. For more detailed information and advanced usage, refer to the package documentation on [pub.dev](https://pub.dev/).
 
 Maintained with ❤️ by olololoe110399

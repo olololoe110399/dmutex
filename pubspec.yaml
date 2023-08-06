@@ -1,6 +1,6 @@
 name: dmutex
 description: Asynchronous locks and reentrant locks for Dart, enabling smooth concurrency control in your applications.
-version: 0.0.1
+version: 1.0.1
 homepage: https://github.com/olololoe110399/dmutex
 
 environment:
